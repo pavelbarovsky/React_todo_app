@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    background-color: #201d24;
+}
+
+* {
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App {
+    text-align: center;
+}
+
+.App .item-todo {
+    padding: 14px;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 1000px;
+    text-align: left;
+    margin-top: 15px; 
+    background-color: #2a2630;
+    color: #fff;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.App .item-todo .item-text {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.App input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #2a2630;
+}
+
+.App button {
+    width: 120px;;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #91e4a6;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.App .item-todo .item-delete {
+    cursor: pointer;
+    float: right;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+
+.strike {
+    text-decoration: line-through;
+    color:#91e4a6;
+}
+
+.counter {
+    color: transparent;    
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #449187, #fff8b5);
+}
+
+.item-delete:hover {
+    color: #91e4a6;
+}
